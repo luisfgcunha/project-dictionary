@@ -4,26 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Clock</title>
+    <title>English Dictionary</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="clock">
-      <div class="numbers">
-        <div class="twelve">12</div>
-        <div class="three">3</div>
-        <div class="six">6</div>
-        <div class="nine">9</div>
+    <div class="container">
+      <h1 class="heading">English Dictionary</h1>
+      <input placeholder="Search a word" type="text" class="input" id="input" />
+      <p class="info-text" id="info-text">Type a word and press enter</p>
+      <div class="meaning-container" id="meaning-container">
+        <p>Word Title: <span class="title" id="title">___</span></p>
+        <p>Meaning: <span class="meaning" id="meaning">___</span></p>
+        <audio src="" controls id="audio"></audio>
       </div>
-      <div class="arrows">
-        <div class="hour"></div>
-        <div class="minute"></div>
-        <div class="second"></div>
-      </div>
-      <img
-        src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Rolex_logo.svg/1200px-Rolex_logo.svg.png"
-        alt=""
-      />
     </div>
     <script src="index.js"></script>
   </body>
